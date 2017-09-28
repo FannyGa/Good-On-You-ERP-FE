@@ -1,0 +1,88 @@
+{
+    "categories": [
+        {
+            "category_id": "general",
+            "short_text": "General",
+            "description": "",
+            "themes": [
+                {
+                    "theme_id": "name",
+                    "short_text": "brand_name",
+                    "description": "The name of the brand as appearing on their website"
+                },
+                {
+                    "theme_id": "website",
+                    "short_text": "brand_website",
+                    "description": "The main URL of the brand"
+                },
+                {
+                    "theme_id": "rating_date",
+                    "short_text": "Rating Date",
+                    "description": "The Date when the brand arrives to status Rated"
+                },
+                {
+                    "theme_id": "verification_date",
+                    "short_text": "Verification Date",
+                    "description": "The Date when the brand arrives to status Verified"
+                },
+                {
+                    "theme_id": "size",
+                    "short_text": "Brand Size",
+                    "description": "A brand is either Small or Large"
+                },
+                {
+                    "theme_id": "reason",
+                    "short_text": "Brand reason",
+                    "description": "Reason explaining why the brand is large"
+                },
+                {
+                    "theme_id": "parent_company_name",
+                    "short_text": "Parent Company name",
+                    "description": "Reason explaining why the brand is large"
+                },
+                {
+                    "theme_id": "sustainability_reporting_dt",
+                    "short_text": "Brand Sustainability Reporting Date",
+                    "description": "Date"
+                },
+                {
+                    "theme_id": "rand_review_dt",
+                    "short_text": "The Date when the brand arrives to status Approved",
+                    "description": "Date"
+                }
+            ]
+        },
+        {
+            "category_id": "contact",
+            "short_text": "Contact",
+            "description": "",
+            "themes": [
+                {
+                    "theme_id": "contact_name",
+                    "short_text": "Brand contact name",
+                    "description": "The name of the brand employee who can be contacted "
+                },
+                {
+                    "theme_id": "contact_email",
+                    "short_text": "Brand contact email address",
+                    "description": "The email address of the brand employee who can be contacted"
+                },
+                {
+                    "theme_id": "relationship_mgr",
+                    "short_text": "GoodOnYou Relationship Manager",
+                    "description": "The name of the GoodOnYou employee who manage the relationship with the brand"
+                }
+            ]
+        }
+    ],
+    "questions": [
+        {
+            "text": "Which of the following is the brand certified by? ",
+            "category_id": "environment",
+            "theme_id": "resource",
+            "brand_size": "all",
+            "answers": [
+                {
+                    "text": "All products fully certified by Cradle to Cradle Platinum",
+                    "score": 1.0
+                }
